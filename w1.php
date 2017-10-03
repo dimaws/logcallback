@@ -32,8 +32,8 @@ fclose($fp);
   if (!isset($_POST["WMI_SIGNATURE"]))
     print_answer("Retry", "Отсутствует параметр WMI_SIGNATURE");
  
-  if (!isset($_POST["WMI_PAYMENT_NO"]))
-    print_answer("Retry", "Отсутствует параметр WMI_PAYMENT_NO");
+  //if (!isset($_POST["WMI_PAYMENT_NO"]))
+    //print_answer("Retry", "Отсутствует параметр WMI_PAYMENT_NO");
  
   if (!isset($_POST["WMI_ORDER_STATE"]))
     print_answer("Retry", "Отсутствует параметр WMI_ORDER_STATE");
