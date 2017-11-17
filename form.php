@@ -1,5 +1,5 @@
 <?php
- 
+ echo "1<br>";
   //Секретный ключ интернет-магазина
   $key = "76457a5c77416b4c75304c46317a6c683236317c5748494c33426b";
  
@@ -77,8 +77,8 @@
  
   // Формирование HTML-кода платежной формы
  
-  //print "<form action='https://wl.walletone.com/checkout/checkout/Index' method='POST'>";
-  print "<form action='http://d5k.ru/w1.php' method='POST'>";
+  print "<form action='https://wl.walletone.com/checkout/checkout/Index' method='POST'>";
+  //print "<form action='http://d5k.ru/w1.php' method='POST'>";
  
   foreach($fields as $key => $val)
   {
