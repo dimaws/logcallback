@@ -1,16 +1,16 @@
 <?php
- echo "1<br>";
+ echo "2<br>";
   //Секретный ключ интернет-магазина
   $key = "76457a5c77416b4c75304c46317a6c683236317c5748494c33426b";
  
   $fields = array();
  
   // Добавление полей формы в ассоциативный массив
-  $fields["WMI_CUSTOMER_FIRSTNAME"]    = "Вася";
+  $fields["WMI_CUSTOMER_FIRSTNAME"]    = base64_encode("Вася");
   $fields["WMI_CURRENCY_ID"] = "643";
   $fields["WMI_CUSTOMER_LASTNAME"]    = "";
   $fields["WMI_PAYMENT_AMOUNT"]     = "50";
-  $fields["WMI_DESCRIPTION"]    = "Покупка ставок на www.stoloto.ru"; //"BASE64:".base64_encode("Payment for order #12345-001 in MYSHOP.com");
+  $fields["WMI_DESCRIPTION"]    = base64_encode("Покупка ставок на www.stoloto.ru"); //"BASE64:".base64_encode("Payment for order #12345-001 in MYSHOP.com");
   $fields["WMI_FAIL_URL"]   = "http://dev.stoloto.ru/payment/invoice/148547161/wait";
   $fields["WMI_CUSTOMER_PHONE"]    = "+79037640811";
   $fields["url"]       = "https://wl.walletone.com/checkout/checkout/Index";
