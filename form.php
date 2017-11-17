@@ -69,7 +69,7 @@
   // вычислени€ отпечатка, сформированного выше сообщени€,
   // по алгоритму MD5 и представление его в Base64
  
-  $signature = base64_encode(pack("H*", md5($fieldValues . $key)));
+  $signature = base64_encode(pack("H*", sha1($fieldValues . $key)));
  
   //ƒобавление параметра WMI_SIGNATURE в словарь параметров формы
  
