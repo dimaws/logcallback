@@ -10,7 +10,7 @@
   $fields["WMI_CURRENCY_ID"] = "643";
   $fields["WMI_CUSTOMER_LASTNAME"]    = "";
   $fields["WMI_PAYMENT_AMOUNT"]     = "50";
-  $fields["WMI_DESCRIPTION"]    = "Покупка ставок на www.stoloto.ru"//"BASE64:".base64_encode("Payment for order #12345-001 in MYSHOP.com");
+  $fields["WMI_DESCRIPTION"]    = "Покупка ставок на www.stoloto.ru"; //"BASE64:".base64_encode("Payment for order #12345-001 in MYSHOP.com");
   $fields["WMI_FAIL_URL"]   = "http://dev.stoloto.ru/payment/invoice/148547161/wait";
   $fields["WMI_CUSTOMER_PHONE"]    = "+79037640811";
   $fields["url"]       = "https://wl.walletone.com/checkout/checkout/Index";
