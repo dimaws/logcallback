@@ -6,7 +6,7 @@
   $fields = array();
  
   // Добавление полей формы в ассоциативный массив
-  $fields["WMI_CUSTOMER_FIRSTNAME"]    = base64_encode("Вася");
+  $fields["WMI_CUSTOMER_FIRSTNAME"]    = "Вася";
   $fields["WMI_CURRENCY_ID"] = "643";
   $fields["WMI_CUSTOMER_LASTNAME"]    = "";
   $fields["WMI_PAYMENT_AMOUNT"]     = "50";
@@ -16,7 +16,7 @@
   $fields["url"]       = "https://wl.walletone.com/checkout/checkout/Index";
   $fields["service"]       = "W1"; // Дополнительные параметры
   $fields["WMI_SUCCESS_URL"]       = "http://dev.stoloto.ru/payment/invoice/148547161/wait"; // интернет-магазина тоже участвуют
-  $fields["WMI_PAYMENT_NO"]       = "1825010"; // при формировании подписи!
+  $fields["WMI_PAYMENT_NO"]       = "test001"; // при формировании подписи!
   $fields["WMI_MERCHANT_ID"]       = "105243498743"; // при формировании подписи!
   $fields["WMI_CUSTOMER_EMAIL"]       = "gosloto@yolkin.ru"; // при формировании подписи!
   $fields["id"]       = "148547161"; // при формировании подписи!
