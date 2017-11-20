@@ -6,22 +6,22 @@
   $fields = array();
  
   // Добавление полей формы в ассоциативный массив
-  $fields["WMI_CUSTOMER_FIRSTNAME"]    = "Вася";
+  $fields["WMI_CUSTOMER_FIRSTNAME"]    = "[B@26b04487";
   $fields["WMI_CURRENCY_ID"] = "643";
-  $fields["WMI_CUSTOMER_LASTNAME"]    = "";
+  $fields["WMI_CUSTOMER_LASTNAME"]    = "[B@57fc982e";
   $fields["WMI_PAYMENT_AMOUNT"]     = "50";
-  $fields["WMI_DESCRIPTION"]    = base64_encode("Покупка ставок на www.stoloto.ru"); //"BASE64:".base64_encode("Payment for order #12345-001 in MYSHOP.com");
-  $fields["WMI_FAIL_URL"]   = "http://dev.stoloto.ru/payment/invoice/148547161/wait";
+  $fields["WMI_DESCRIPTION"]    = "[B@35939f3b"; //base64_encode("Покупка ставок на www.stoloto.ru"); //"BASE64:".base64_encode("Payment for order #12345-001 in MYSHOP.com");
+  $fields["WMI_FAIL_URL"]   = "http://dev.stoloto.ru/payment/invoice/153176801/wait";
   $fields["WMI_CUSTOMER_PHONE"]    = "+79037640811";
   $fields["url"]       = "https://wl.walletone.com/checkout/checkout/Index";
-  $fields["service"]       = "W1"; // Дополнительные параметры
-  $fields["WMI_SUCCESS_URL"]       = "http://dev.stoloto.ru/payment/invoice/148547161/wait"; // интернет-магазина тоже участвуют
-  $fields["WMI_PAYMENT_NO"]       = "test001"; // при формировании подписи!
-  $fields["WMI_MERCHANT_ID"]       = "105243498743"; // при формировании подписи!
-  $fields["WMI_CUSTOMER_EMAIL"]       = "gosloto@yolkin.ru"; // при формировании подписи!
-  $fields["id"]       = "148547161"; // при формировании подписи!
-  $fields["category"]       = "CARD"; // при формировании подписи!
-  $fields["WMI_PTENABLED"]       = "TestCardRUB"; // при формировании подписи!
+  $fields["service"]       = "W1"; 
+  $fields["WMI_SUCCESS_URL"]       = "http://dev.stoloto.ru/payment/invoice/153176801/wait"; 
+  $fields["WMI_PAYMENT_NO"]       = "1831246"; 
+  $fields["WMI_MERCHANT_ID"]       = "105243498743"; 
+  $fields["WMI_CUSTOMER_EMAIL"]       = "gosloto@yolkin.ru"; 
+  $fields["id"]       = "153176801"; 
+  $fields["category"]       = "CARD"; 
+  $fields["WMI_PTENABLED"]       = "TestCardRUB"; 
   
   
   
